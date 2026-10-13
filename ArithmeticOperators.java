@@ -1,6 +1,19 @@
-
+11249A332
+Aim :
+To write a Java program to perform arithmetic operations using a switch statement.
+    
+Algorithm :
+ 1. Start the program.
+ 2. Read two numbers from the user.
+ 3. Display the arithmetic operations menu.
+ 4. Read the user's choice.
+ 5. Perform the selected operation using switch.
+ 6. Display the result.
+ 7. Repeat until Exit is selected.
+ 8. Stop.    
+    
+Program :
 import java.util.Scanner;
-
 public class ArithmeticOperators {
     public static void main(String args[]) {
 
@@ -68,3 +81,12 @@ public class ArithmeticOperators {
         }
     }
 }
+Output :
+Enter the first number: 20
+Enter the second number: 5
+Choose operation: 1
+Result: 25
+
+Result : Thus, the Java program to perform arithmetic operations was executed successfully.
+
+    
