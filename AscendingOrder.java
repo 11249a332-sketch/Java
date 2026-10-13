@@ -1,5 +1,16 @@
-import java.util.Scanner;
+11249A332
+Aim : To write a Java program to sort array elements in ascending order.
 
+Algorithm :
+ 1. Start the program.
+ 2. Read the number of array elements.
+ 3. Enter the array elements.
+ 4. Compare elements using nested loops and swap them if necessary.
+ 5. Display the elements in ascending order.
+ 6. Stop.
+
+Program :
+import java.util.Scanner;  
 public class 
 AscendingOrder
 {
@@ -34,3 +45,11 @@ System.out.print(a[i]+",");
 System.out.print(a[n-1]);
 }
 }
+
+Output :
+Enter number of elements you want in array: 5
+Enter all the elements:
+5 2 8 1 3
+AscendingOrder:1,2,3,5,8
+
+Result  : Thus, the Java program to sort array elements in ascending order was executed successfully.
