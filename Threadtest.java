@@ -1,3 +1,17 @@
+11249A332
+Aim : To write a Java program to demonstrate thread methods such as yield(), sleep(), and break, and to demonstrate thread priorities.
+
+Algorithm : 
+ 1. Start the program.
+ 2. Create three thread classes: A, B, and C.
+ 3. In thread A, use Thread.yield() to give other threads a chance to execute.
+ 4. In thread B, print numbers and stop the loop using break when the value reaches 3.
+ 5. In thread C, use Thread.sleep(1500) to pause execution for 1.5 seconds.
+ 6. Create thread objects and start them using start().
+ 7. Display the output.
+ 8. Stop the program.   
+
+Program :
 class A extends Thread {
     public void run() {
         for (int i = 1; i <= 5; i++) {
@@ -100,3 +114,24 @@ System.out.println("start thread B"); threadB.start(); System.out.println("start
 System.out.println("end of main thread");
 }
 }
+
+Output : 
+Start thread A
+exit from main thread
+from thread B j=1
+from thread B j=2
+from thread B j=3
+exit from B
+thread C = 1
+from thread A i=1
+from thread A i=2
+from thread A i=3
+from thread A i=4
+from thread A i=5
+exit from A
+thread C = 2
+thread C = 3
+thread C = 4
+thread C = 5
+
+Result : The Java program demonstrates multithreading and the use of yield(), sleep(), and break. Thread execution order may vary depending on the thread scheduler.
