@@ -11,7 +11,7 @@ Algorithm :
  7. Display the output of the threads.
  8. Stop the program.
 
- Program :
+Program :
 import java.io.*;
 class A extends Thread
 {
