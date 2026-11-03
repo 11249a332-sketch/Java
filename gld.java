@@ -1,3 +1,16 @@
+11249A332
+Aim : To write a Java Applet program to arrange buttons using the GridLayout manager.
+
+Algorithm :
+ 1. Import the required Java packages.
+ 2. Create an Applet class named gld.
+ 3. Set the layout using GridLayout(5,2).
+ 4. Create ten buttons from A to J.
+ 5. Add all buttons to the Applet.
+ 6. Set the margins using getInsets().
+ 7. Display the buttons in a 5 × 2 grid.
+
+Program :
 import java.awt.*;
 import java.io.*;
 import java.applet.Applet.*;
@@ -35,3 +48,13 @@ public Insets getInsets()
 {
 return new Insets(20,20,20,20);
 }}
+
+Output :
+GridLayout Output
+A B
+C D
+E F
+G H
+I J
+
+Result : Thus, the Java Applet program using GridLayout was successfully executed and ten buttons were arranged in 5 rows and 2 columns.
